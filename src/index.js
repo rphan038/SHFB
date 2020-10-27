@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Popup from './components/popup'
+import Navbar from './components/navbar'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    {/* <Popup /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

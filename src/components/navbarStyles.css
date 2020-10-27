@@ -1,0 +1,460 @@
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+}
+
+#siteBtn {
+    border-radius: 8px;
+    background-color: #436026;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #436026;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav li {
+    float: left;
+    background-color: white;
+}
+
+.shfblogo {
+    width: 0px;
+    height: 0px;
+    background-image: url(../logo.png);
+    background-color: white;
+}
+
+
+/*
+https://shfblv.org/1603592614619/
+// <script>
+// 			function siteBtnClick() {
+// 				var popup = document.getElementById('popup');
+// 				popup.classList.toggle("show");
+// 			}
+// 			function exitButton() {
+// 				var popup = document.getElementById('popup');
+// 				popup.classList.toggle("show");
+// 			}
+// 		</script>
+		
+ 		<div className='popup'>
+             <div className='popup_inner'>
+               <h1>Site Map</h1>
+               <button className="exit" onClick='exitButton()'>X</button>
+               <div className="about">
+                   <h3>About Us</h3>
+                   <br></br>
+                   <ul className='about-components'>
+                     <li><a href='./history.html'>Our Story</a></li>
+                     <br></br>
+                     <li><a href='./history.html'>News</a></li>
+                     <br></br>
+                     <li><a href='./history.html'>Financials and Reports</a></li>
+                     <br></br>
+                     <li><a href='./history.html'>Our Staff</a></li>
+                     <br></br>
+                     <li><a href='./history.html'>SHFB Advisory Board</a></li>
+                   </ul>
+               </div>
+               <div className="our-work">
+                   <h3>Our Work</h3>
+                   <br></br>
+                   <ul className='about-components'>
+                     <li><a href='./history.html'>Our Impact</a></li>
+                     <br></br>
+                     <li>
+                       <ul>
+                         <li><a href='./history.html'><h4>Partnerships</h4></a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Coporate Mission Partner</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Alice Anne Miller Hunger Hero</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Sharon's Pantry Humanitarian</a></li>
+                       </ul>
+                     </li>
+                     <li>
+                     <ul>
+                         <li><a href='./history.html'><h4>Programs</h4></a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Backpack Buddies</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- MilitaryShare</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- SNAP Outreach</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- SUNShine Boxes</a></li>
+                       </ul>
+                     </li>
+                   </ul>
+               </div>
+               <div className="volunteer">
+                   <h3>Get Involved</h3>
+                   <br></br>
+                   <ul className='about-components'>
+                     <li>
+                       <ul>
+                         <li><a href='./history.html'><h4>Volunteer</h4></a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Group</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Individuals and Families</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Upcoming</a></li>
+                       </ul>
+                     </li>
+                     <li><a href='./history.html'>Farm to Fork</a></li>
+                     <br></br>
+                     <li><a href= './history.html'>Host a Food & Fund Drive</a></li>
+                     <br></br>
+                   </ul>
+               </div>
+               <div className="give">
+                   <h3>Give</h3>
+                   <br></br>
+                   <ul className='about-components'>
+                     <li><a href='https://interland3.donorperfect.net/weblink/weblink.aspx?name=E98896&id=10'>Donate Money</a></li>
+                     <br></br>
+                     <li><a href='./history.html'>Giving Societies</a></li>
+                     <br></br>
+                     <li>
+                       <ul>
+                         <li><a href='./history.html'><h4>Individuals</h4></a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Give Monthly</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Crowdfunding</a></li>
+                         <br></br>
+                         <li><a href='./history.html'>- Give By Mail or Phone</a></li>
+                       </ul>
+                     </li>
+                     <br></br>
+                     <li><a href= './history.html'>Donate Food</a></li>
+                   </ul>
+               </div>
+               <div className="Food">
+                 <h2>Find Food</h2>
+               </div>
+               <div className="Contact">
+                 <h2>Contact</h2>
+               </div>
+             </div>
+           </div>
+
+// 		<style>
+// 			#siteBtn {
+//             border-radius: 8px;
+//             background-color: white;
+//             color: #436026;
+//             padding: 10px 20px;
+//             border: 2px solid #436026;
+//             font-weight: bold;
+//             font-size: 16px;
+//         	} 
+// 			.popup {
+//               position: fixed;
+// 			  visibility: hidden;
+//               width: 125%;
+//               height: 125%;
+//               top: 0;
+//               left: 0;
+//               right: 0;
+//               bottom: 0;
+//               margin: auto;
+//               background-color: rgba(0,0,0,0.5);
+//               z-index: 9999;
+//               position: fixed;
+//               overflow: auto;
+//             }
+
+//             .popup_inner {
+//               position: absolute;
+// 			  visibility: hidden;
+//               left: 5%;
+//               right: 25%;
+//               top: 25%;
+//               bottom: 15%;
+//               margin: auto;
+//               border-radius: 20px;
+//               background: white;
+//             }
+
+// 			.popup_inner .show {
+// 			  visibility: visible;
+// 			}
+
+// 			.popup_inner .hide {
+// 			  visibility: hidden;
+// 			}
+
+             h1 {
+               text-align: center;
+               font-family: 'Lato';
+             }
+
+             .about {
+               position: absolute;
+               width: 15%;
+               height: 40%;
+               left: 2%;
+               top: 50px;
+               text-align: left;
+               padding: 10px 10px;
+             }
+
+             .about:hover {
+               cursor: pointer;
+               border: 3px solid #F7941D;
+             }
+
+             .our-work {
+               position: absolute;
+               width: 20%;
+               height: 70%;
+               left: 20%;
+               top: 50px;
+               text-align: left;
+               padding: 10px 10px;
+             }
+
+             .our-work:hover {
+               cursor: pointer;
+               border: 3px solid #436026;
+             }
+
+             .give {
+               position: absolute;
+               width: 15%;
+               height: 60%;
+               left: 45%;
+               top: 50px;
+               text-align: left;
+               padding: 10px 10px;
+             }
+
+             .give:hover {
+               cursor: pointer;
+               border: 3px solid #F7941D;
+             }
+
+             .volunteer {
+               position: absolute;
+               width: 15%;
+               height: 50%;
+               left: 63%;
+               top: 50px;
+               text-align: left;
+               padding: 10px 10px;
+             }
+
+             .volunteer:hover {
+               cursor: pointer;
+               border: 3px solid #436026;
+             }
+
+             .Food {
+               color: #436026;
+               position: absolute;
+               left: 80%;
+               top: 50px;
+               width: 10%;
+               text-align: center;
+               background-color: #F7941D;
+
+             }
+
+             .Food:hover {
+               cursor: pointer;
+               background-color: #436026;
+               color: #F7941D;
+             }
+
+             .Contact {
+               color: #F7941D;
+               position: absolute;
+               left: 80%;
+               top: 150px;
+               width: 10%;
+               text-align: center;
+               background-color: #436026;
+             }
+
+             .Contact:hover {
+               cursor: pointer;
+               background-color: #F7941D;
+               color: #436026;
+             }
+
+             .exit {
+               border-radius: 50%;
+               position: absolute;
+               left: 97%;
+               top: 2%;
+               border: 2px solid black;
+             }
+         </style>*/
+         
+		
+			 /* @media (min-width:480px) {.popup {
+                position: fixed;
+                 display: none;
+                width: 125%;
+                height: 125%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 9999;
+                position: fixed;
+                overflow: auto;
+              }}
+              @media (min-width:480px) {.popup_inner {
+                position: absolute;
+                left: 5%;
+                right: 25%;
+                top: 25%;
+                bottom: 15%;
+                margin: auto;
+                border-radius: 20px;
+                background: white;
+              }}
+ 
+             @media (min-width:480px) {.close-btn-sitemap {
+               color: #aaa;
+               float: right;
+               font-size: 175%;
+               font-weight: bold;
+               padding: 15px;
+             }}
+ 
+             @media (min-width:480px and max-width:1024px) {.close-btn-sitemap:hover,
+             .close-btn-sitemap:focus {
+               color: black;
+               text-decoration: none;
+               cursor: pointer;
+             }}
+ 
+              @media (min-width:480px and max-width:1024px) {.about {
+                position: absolute;
+                width: 5%;
+                height: 50%;
+                left: 2%;
+                top: 40px;
+                text-align: left;
+                padding: 5px 10px;
+                font-size: 50%;
+                font-family: 'Lato';
+                display: inline-block;
+              }}
+ 
+             @media (min-width:480px and max-width:1024px) {.our-work {
+                position: absolute;
+                width: 5%;
+                height: 90%;
+                left: 20%;
+                top: 500%;
+                text-align: left;
+                padding: 31.25% 62.5%;
+                font-size: 50%;
+                font-family: 'Lato';
+                display: inline-block;
+              }}
+ 
+             @media (min-width:480px and max-width:1024px) {.give {
+                position: absolute;
+                width: 17%;
+                height: 80%;
+                left: 42%;
+                top: 40px;
+                text-align: left;
+                padding: 5px 10px;
+                font-size: 50%;
+                font-family: 'Lato';
+                display: inline-block;
+              }}
+ 
+              @media (min-width:480px) {.volunteer {
+                position: absolute;
+                width: 20%;
+                height: 55%;
+                left: 60%;
+                top: 40px;
+                text-align: left;
+                padding: 5px 10px;
+                font-size: 50%;
+                font-family: 'Lato';
+                display: inline-block;
+              }}
+ 
+             @media (min-width:480px and max-width:1024px) {.popup-components > ol {
+                color: black;
+                font-size: 93.75%;
+                padding: 20%;
+                font-family: 'Lato';
+                display: inline-block;
+             }}
+             @media (min-width:480px) {.food-popup {
+                color: #436026;
+                position: absolute;
+                left: 85%;
+                top: 100px;
+                width: 11%;
+                text-align: center;
+                background-color: #F7941D;
+ 
+              }}
+ 
+              @media (min-width:480px) {.contact-popup {
+                color: #F7941D;
+                position: absolute;
+                left: 85%;
+                top: 175px;
+                width: 11%;
+                text-align: center;
+                background-color: #436026;
+              }}
+              @media (min-width:480px) {.for-members-popup {
+                color: #436026;
+                position: absolute;
+                left: 85%;
+                top: 250px;
+                width: 11%;
+                text-align: center;
+                background-color: #F7941D;
+              }}
+             @media (min-width:480px) {.donate-popup {
+                color: #F7941D;
+                position: absolute;
+                left: 85%;
+                top: 325px;
+                width: 11%;
+                text-align: center;
+                background-color: #436026;
+              }}
+
+              about for mobile
+              position: absolute;
+               width: 2%;
+               height: 75%;
+               left: 2%;
+               top: 40px;
+               text-align: left;
+               padding: 5px 10px;
+
+               position: absolute;
+               width: 20%;
+               height: 90%;
+               left: 50%;
+               top: 40px;
+               text-align: left;
+               padding: 5px 10px;
+			   
+			    */
